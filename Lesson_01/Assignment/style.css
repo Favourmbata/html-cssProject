@@ -1,0 +1,61 @@
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    img{
+        width: 15vw;
+    }
+.nav__links{
+    list-style: none;
+    display: flex;
+    margin: 1vw;
+    
+}
+
+.list-objects{
+    margin: 0 1vw;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cta{
+button{
+    padding: 1vw 2vw;
+    margin: 0 0.2vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+}
+
+}
+
+.introduction-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8vw;
+
+
+}
+.introduction-text{
+    font-size: 3.5vw;
+}
+
+.introduction-button{
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    margin: 0 0.2vw;
+    cursor: pointer;
+}
+
+.image-div{
+    width: 60vw;
+}
+

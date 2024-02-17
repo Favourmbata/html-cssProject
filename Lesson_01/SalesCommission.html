@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Commission Calculator</title>
+</head>
+<body>
+    <script>
+        // Function to calculate earnings
+        function calculateEarnings() {
+            // Input the number of items sold
+            var numberOfItems = prompt("Enter the number of items sold");
+            var totalSales = 0;
+
+            // Input the values of each item and calculate total sales
+            for (var i = 1; i <= numberOfItems; i++) {
+                var itemValue = parseFloat(prompt("Enter the value of item " + i));
+                totalSales += itemValue;
+            }
+
+            // Calculate earnings using the commission structure
+            var commissionRate = 0.09;
+            var baseEarnings = 200;
+            var earnings = baseEarnings + (totalSales * commissionRate);
+
+            // Display the earnings
+            alert("Salesperson's earnings: $" + earnings.toFixed(2));
+        }
+
+        // Call the function when the page is loaded
+        calculateEarnings();
+    </script>
+</body>
+</html>

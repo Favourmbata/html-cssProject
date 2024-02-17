@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum of Ten Numbers</title>
+</head>
+<body>
+    <script>
+     const input1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+const result = input1.filter((element)=> element % 2 === 0);
+console.log(result)
+
+const value = input1.forEach(element => {
+    console.log(element * 2)
+});
+
+const map1 = input1.map((element)=> element * element);
+
+
+    </script>
+<div>{$"input1"}</div>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Ten Numbers</title>
+</head>
+<body>
+    <script>
+        const input1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+        const result = input1.filter((element) => element % 2 === 0);
+        // console.log(result);
+
+        const value = input1.map((element) => element * element);
+
+        // Create a div element
+        const resultDiv = document.createElement('div');
+        const resultDiv2 = document.createElement('div');
+        
+        // Set the content of the div
+        resultDiv.innerHTML = `result: ${result.join(', ')}`;
+        resultDiv2.innerHTML = `value: ${value.join(', ')}`;
+
+        // Append the div to the body
+        document.body.appendChild(resultDiv);
+        document.body.appendChild(resultDiv2);
+    </script>
+</body>
+</html>
