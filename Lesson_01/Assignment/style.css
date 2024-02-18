@@ -40,22 +40,66 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 8vw;
+    margin-left: 7vw;
 
 
 }
+.direction-buttons {
+    margin-right: 20px;
+}
+
 .introduction-text{
     font-size: 3.5vw;
 }
 
 .introduction-button{
-    padding: 1vw 2vw;
+    padding: 1vw 2.5vw;
     border-radius: 10px;
-    margin: 0 0.2vw;
+    margin: 0 0.3vw;
+    font-size: 1.3rem;
+
     cursor: pointer;
 }
 
 .image-div{
     width: 60vw;
+
+}
+.fa-play{
+    font-size: 1.1rem;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  overflow: hidden;
+   background-color: #fff; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.card {
+    height: 100%;
+    margin: 5px;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.card p {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.twitter_image{
+width: 25px;
+height: 40px ;
+}
