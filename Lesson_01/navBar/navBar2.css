@@ -1,21 +1,21 @@
-/* body{
+ body{
     background-color: azure  ;
     padding: 0;
     margin: 0;
     overflow: hidden;
     text-align: center;
-} */
+} 
 
-/* header{
+header{
     background-color: #fff;
     padding: 15px;
     box-shadow: 0 0 3px #000;
-} */
+}
 
-/* header li{
+header li{
      display: inline;
      padding-left: 45px;
-} */
+}
 
 header li a {
     color: #333;

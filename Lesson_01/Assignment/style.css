@@ -13,26 +13,46 @@ header{
     list-style: none;
     display: flex;
     margin: 1vw;
-    
+
 }
 
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: #fff; 
+   position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.cta{
+    button{
+        padding: 1vw 2vw;
+        margin: 0 0.2vw;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    }
+    .direction-buttons {
+        margin-right: 20px;
+    }
+    
 .list-objects{
     margin: 0 1vw;
 
 }
+
+
 a{
     text-decoration: none;
     color: #000;
 }
 
-.cta{
-button{
-    padding: 1vw 2vw;
-    margin: 0 0.2vw;
-    border-radius: 10px;
-    cursor: pointer;
-}
-}
+
 
 }
 
@@ -43,9 +63,6 @@ button{
     margin-left: 5vw;
 
 
-}
-.direction-buttons {
-    margin-right: 20px;
 }
 
 .introduction-text{
@@ -69,17 +86,6 @@ button{
     font-size: 1.1rem;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    background-color: #fff; 
-   position: fixed;
-  top: 0;
-  width: 100%;
-
-}
 
 .card-top {
     display: flex;
@@ -111,7 +117,7 @@ height: 40px ;
     background-color: aliceblue;
     padding: 5px;
 }
-.card q{
+.card p{
     height: 100%;
     margin: 5px;
     background-color: aliceblue;
@@ -123,3 +129,76 @@ height: 40px ;
     background-color: aliceblue;
     padding: 5px;
 }
+.icon{
+    height: 76px;
+    width: 76px;
+ } 
+.market-writer{
+   /* border-bottom-left-radius :inherit;
+    border-top-right-radius: inherit;  */
+    
+    margin : 5px;
+    padding: 5px;
+    height: 100%; 
+  } 
+ .market-writer p{
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 10px;
+ }
+ .colour{
+    width: 100%;
+    justify-content: space-between;
+ } 
+ /* .dashedLine{
+    /* height: 10px;  */
+ /* border: dashed; */
+  /* width: 100px;  */
+
+ /* } */
+  
+
+ .testimonial{
+    background-image: url(" https://res.cloudinary.com/semicolon-website/image/upload/v1637762892/website/assets/hero-backgrounds/try_k0wo5g.svg");
+}
+ 
+
+.trainees{
+    position: absolute;
+    right: 300px;
+}
+/* .market-writeup{
+margin: 25px;
+padding: 25px;
+position: sticky;
+}
+.market-writeup p{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+   
+    } */
+
+    .image-image{
+        margin: 30px;
+        padding: 30px;
+        display: flex;
+    }
+    .section-one{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 10px;
+    }
+   .image-image1{
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+   }
+   .icon{
+    display: flex;
+    margin: 45px;
+    padding: 15px;
+    justify-content: end;
+   }
