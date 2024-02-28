@@ -535,17 +535,38 @@ font-size: medium;
     display: flex;
     margin-left: 800px;
 }
-.general-cover{
+
+.section-five{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 10px;
+    
+}
+.section-six{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+
+}
+/* .general-cover{
     display: flex;
     margin: 300px;
     align-content: center; 
     justify-content: center;
-    /* flex-direction: column; */
+    justify-content: space-between;
+   gap: 50px;
+    flex-direction: column;
 
-}
+} */
 
-.about{
+/* .about{
     margin-right: 110px;
+    font-size:  15px;
 }
 .section-vi{
  margin-right: 90px;
@@ -562,50 +583,19 @@ font-size: medium;
     margin: 300px;
     justify-content: space-between;
    
-} 
+}  */
 
 .bb-colour{
-    align-items: center !important;
-    justify-content: center !important;
-    flex-direction: column !important;
-    display: flex !important;
+    background-image: url(./images/townCrierBackground_cdla2j.png);
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    display: flex ;  
+    color: white;
+    margin-left: auto;
 }
 
-.town-background{
-    position: absolute;
-}
-
-.bb-colour h3{
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 42px;
-    margin-bottom: 25%;
-    letter-spacing: -0.02em;
-    color: rgb(255, 255, 255);
-}
-
-.town-crier h4{
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 30px;
-    color: rgb(148, 11, 11);
-    padding-left: 70px;
-}
-.town-crier{
-    align-items: center !important;
-    justify-content: center !important;
-    flex-direction: column !important;
-    display: flex !important;
-}
-
-
-
-/* .section-six{
-    display: flex; 
-    margin-right:30px;
-    /* justify-content: space-between;
-    justify-content: center; */
-/* }  */ 
 .about{
    padding-left: 5rem;
     padding-right: 5rem;
@@ -613,38 +603,5 @@ font-size: medium;
 .ending{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
-/* .section-five{
-    display: flex;
-    /* margin-right: 40px; */
-    /* justify-content: space-between; */
-/* } */ 
-/* .section-v{
-    display: flex;
-    justify-content: center;
-    margin-left: 200px;
-}
-.hire{
-    margin-left:  0 auto;
-}
-.section-ix{
-    display: flex;
-    justify-content: center;
-}
-.addresse-ap{
-    margin-left: 300px;
-    justify-content: center;
-}
-.section-six{
-    display: flex;
-    margin-left: 200px;
-    /* margin: ; */
-    /* justify-content: center; */
-/* } */
-/* #plp{
-    /* justify-content: center; */
-    /* margin-left: 200px; */
-/* } */
-/* .section-ix{ */
-
-/* } */  
