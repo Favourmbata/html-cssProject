@@ -1,36 +1,37 @@
- header{
+ 
+.wrapper{
     display: flex;
-    justify-content: center; 
-    align-items: center;
-
-} 
+    justify-content: space-between;
+    overflow: hidden;
+    
+    
+}
 .semicolon-logo{
     width: 12vw;
 
 }
-.section-one{
-    height: 56px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: auto;
-}
+
 .about{
-    /* display: flex; */
+   
     justify-content: space-between;
 
 } 
-.about-id{
-    justify-content: space-between;
-    /* display: flex; */
-    align-items: center;
-    margin-left: 110px;
-    background-color: brown;
-    /* inset-inline: 80px; */
-} 
+
 .swit-id{
    justify-content: space-between;
 }
 
+.direction-buttons{
+    display: flex;
+  
+}
+.cta{
+    justify-content: space-between;
+    margin-right: 2vw;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
 .upload{
     background-image: url("https://res.cloudinary.com/semicolon-website/image/upload/v1637762891/website/assets/hero-backgrounds/Hero-Image_hbuici.png");
 }

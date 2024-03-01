@@ -1,0 +1,112 @@
+body{
+    font-size: medium;
+    /* justify-content: space-between; */
+    
+}
+.navbar{
+    position: relative;
+}
+.header-one{
+    justify-content: space-around;
+    display: flex;
+
+}
+.ringing-phone{
+   float: left;
+   bottom: 10%;
+   margin-top: 45%;
+
+   /* margin-left: 0.03%; */
+    
+} 
+
+  .emergency{
+    display: flex;
+    font-size: small;
+    margin-bottom: 4%;
+     /* padding-bottom: 1rem; */
+   
+} 
+
+.work{
+    display: flex;
+    align-items: flex-end;
+}
+
+.work-hour{
+    display: flex;
+    grid-area: 3%;
+
+
+    }
+.work-id{
+    size: 100px;
+    float: left;
+    padding-left: 3%;
+    margin-right: 5%;
+    
+}
+#time{
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+}
+
+.location{
+    display: flex;
+
+}
+.location-id{
+    float: left ;
+    margin-right: 8%;
+    /* padding-top: 1rem; */
+    padding-bottom: 0.3rem;
+}
+
+.second-navbar{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+   background-color: darkblue;
+   color: #fff;
+}
+.about{
+    padding-left: 10vw;
+    margin-left: 25vw;
+}
+.home{
+    margin-right: 50%;
+    gap: 10%;
+}
+
+.appoint{
+    border-radius: 20%;
+    size: 35%;
+}
+.image-image1{
+    margin-right: 25%;
+}
+.image{
+    background-image: url("/Lesson_01/Assignment/images/Group\ 94.png");
+    width: 56%;
+    height: 56%;
+}
+
+/* .layer1{
+    box-shadow: 66%;
+    background-color: darkblue;
+    width: 120%;
+    height: 120%;
+} */
+.button{
+    /* background-color: darkblue; */
+    color: #fff;
+}
+/* .layer1{
+    background-color: darkblue;
+} */
+#layer-icon{
+    float: right;
+    margin-right: 83%;
+
+    /* gap: 90%; */
+}
