@@ -16,8 +16,7 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background: #e3f9ff
-    ;
+    background: #e3f9ff;
 
 }
 .calculator{
@@ -45,15 +44,15 @@ form.display {
     margin: 20px 0;
 }
 
-form.display input{
+/* form.display input{
     text-align: right;
     flex: 1;
     font-size: 45px;
     box-shadow: none;
 }
-form input .equal{
+ form input .equal{
  width: 145px;
-}
+}  */
 
 form input.operator{
     color: #33ffd8;
