@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="shoppingCart.css">
+  <script src="shopping.js" defer></script>
+</head>
+<body>
+   <h1>Shopping List</h1>
+
+  <table>
+
+   <thead>
+      <tr>
+         <th>Items</th>
+         <th>Prices</th>
+      </tr>
+   </thead>
+
+   <tbody>
+
+   </tbody>
+  </table>
+
+   <div class="section">
+      <tr>
+         <td><input type="text" id="item" required></td>
+         <td><input type="number" id="price" required></td>
+      </tr>
+      <button class="add-button" onclick="addToCart()">Add</button>
+      <button class="remove-button" onclick="removeFromCart()">Remove</button>
+      <button class="total" onclick="getTotal()">Total</button>
+   </div>
+</body>
+</html>

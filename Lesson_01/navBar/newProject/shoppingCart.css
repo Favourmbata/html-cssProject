@@ -1,0 +1,61 @@
+
+body{
+    display: flex;
+    background-color: rgb(104, 180, 176);
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button{
+    display: flex;
+    color: white;
+    font-weight: 300;
+    background-color: green;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    justify-content: center;
+  
+  }
+  
+  button:hover{
+    background-color: rgb(113, 216, 113);
+  }
+  
+  input{
+    width: 55px;
+  }
+  
+  table{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  tr {
+    display: flex;
+    gap: 20px
+  }
+  
+  .remove-button{
+    background-color: red;
+    border: none;
+  }
+  
+  .remove-button:hover{
+    background-color: rgb(231, 108, 108);
+  }
+  
+  .section{
+    display: flex;
+    gap: 2px;
+  }
+  
+  .total{
+    background-color: blue;
+  }
+  
+  .total:hover{
+    background-color: rgb(57, 57, 240);
+  }
