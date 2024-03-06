@@ -7,22 +7,48 @@ const form = document.forms['form']
 form.addEventListener("submit",(event)=>{
     event.preventDefault();
 
-    const firstName = form.querySelector('firstName').value;
-   const lastName = form.querySelector('lastName').value;
-   const age = form.querySelector('age').value;
+    const fName = form.querySelector('#firstName').value;
+   const lName = form.querySelector('#lastName').value;
+   const uEmail = form.querySelector('#email').value;
+   const uPassword = form.querySelector('#password').value;
+    
+       const obj = {
+        firstName:fName,
+       lastName: lName,
+        email:uEmail,
+       password: uPassword
+    }
+ 
+
+    //    const obj = {
+    //     firstName:"chichi",
+    //     lastName:"delight",
+    //     email:"favour123",
+    //     password:"5056"
+    // }
+    // console.log(obj)
 
 
-   const obj = {
-    firstName:firstName,
-    lastName:lastName,
-    age:age
-}
-console.log(obj)
 
 
+    const sendData = async (data) =>{
+       
+        try{
+    
+            const response = await fetch("http://localhost:4080/api/user/register",{
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+            });
 
-
-
-
+            const result = await response.json();
+            console.log("Success:", result);
+        }   catch(error){
+            console.error("Error:", error);
+        }
+    };
+    sendData(obj)
 })
 

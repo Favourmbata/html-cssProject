@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    background-color:gray;
+    font-family: Arial;
+    font-weight: bold;
+ }
+ #whole{
+     font-size: large;
+     font-style: normal;
+     text-align: center;
+ }
+ .cbutton{
+     font-family:Arial;
+     font-weight: bold;
+     font-size: large;
+     color:white;
+     background-color: forestgreen;
+     cursor: pointer;
+     padding: 10px 40px
+ 
+     
+ }
+ .amount{
+     padding: 10px 10px;
+     margin-top: 30px;
+ }

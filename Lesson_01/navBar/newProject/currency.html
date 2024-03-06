@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+    <div id="whole">
+        <h1 id="firstH">Currency Converter</h1>
+        <img  id="pic" src="image.jpg" alt="">
+
+        <div>
+            
+            <input type="text" class="amount" placeholder="Enter amount in USD"
+            onkeydown="
+                onkey(event);
+            ">
+        </div>
+        <div id="firstHouse">
+            <p>
+            <input type="radio"name="currency" class="naira">
+            <label for="naira">Naira</label><br>
+            </p>
+            <p>
+            <input type="radio"name="currency" class="euro">
+            <label for="euro">Euro</label><br>
+            </p>
+            <p>
+            <input type="radio"name="currency" class="pounds">
+            <label for="pounds">Pounds</label>
+            </p>
+            <br>
+        </div>
+        <div>
+            <button class="cbutton" onclick="
+                calculate();
+                ">Submit</button><br>
+            <p class="finalDisplay"></p>
+            
+        </div>
+    </div>
+
+    <script src="currency.js"></script>
+</body>
+</html>

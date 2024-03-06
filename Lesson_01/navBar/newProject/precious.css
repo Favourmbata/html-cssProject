@@ -1,0 +1,26 @@
+#header{
+    display: grid;
+    height: 90vh;
+    /* grid-template-columns: 10px; */
+    /* grid-template-rows: 15px; */
+    /* justify-content: center; */
+    align-items: center;
+}
+#header1,#header2,#header3,#header4{
+   height: 100vh;
+   border: 3px;
+   width: 100vh;
+}
+#header1{
+    background-color: blue;
+}
+
+#header2{
+    background-color: rgb(255, 0, 21);
+}
+#header3{
+    background-color: rgb(255, 0, 200);
+}
+#header4{
+    background-color: rgb(255, 115, 0);
+}
