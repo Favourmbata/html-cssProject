@@ -1,131 +1,22 @@
 
 #header{
-       /* width: 150px;
-       height: 150px;
-       border: 1px solid black;
-       display: inline-block;
-       margin: -2px;
-    /* display: grid; */
-    /* display: inline-block;
-    align-items: center; */
-     
-    display: flex;
-    width: 70%;
-    height: 68vh;
-    margin: 2px;
-    border: 1px solid black;
-    /* gap: 5%; */
-     /* grid-template-columns: repeat(8,50%); */
-    /* flex-wrap: wrap;  */
+    display: grid;
+     width: 100px;
+     height: 20vh; 
+      grid-template-rows: repeat(8,1fr);  
+     grid-template-columns: repeat(8,1fr);
 }
- #header1,#header2,#header3,#header4,#header5,#header6,#header7,#header8,#header9,
-#header10,#header11,#header12,
-#header13,#header14,#header15,#header16 #header17,#header18,#header19,
-#header20,#header21,#header22,#header23 #header24,#header25,#header26,#header27,#header28,#header29,#header30,
-#header31,#header32{
-    width: 12%;
-    height: 12vh;
-
+#header1,#header2{
     
-} 
-/* #firt-header{
-    background-color: black;
-    */
-/* } */
+    width: 100px;
+     height: 20vh;
+    
+}
 #header1{
-    background-color: white;
-
+    background-color: black;
 }
 #header2{
-    background-color: black;
+    background-color:rgb(234, 142, 22);
 }
-#header3{
-    background-color: white;
-}
-#header4{
-    background-color: black;
-}
-#header5{
-    background-color: white;
-}
-#header6{
-    background-color: black;
-}
-#header7{
-    background-color: white;
-}
-#header8{
-    background-color: black;
-}
-#header9{
-    background-color: white;
-}
-#header10{
-    background-color: black;
-}
-#header11{
-    background-color: white;
-}
-#header12{
-    background-color: black;
-}
-#header13{
-    background-color: white;
-}
-#header14{
-    background-color: black;
-}
-#header15{
-    background-color: white;
-}
-#header16{
-    background-color: black;
-}
-#header17{
-    background-color: white;
-}
-#header18{
-    background-color: black;
-}
-#header19{
-    background-color: white;
-}
-#header20{
-    background-color: black;
-}
-#header21{
-    background-color: white;
-}
-#header22{
-    background-color: black;
-}
-#header23{
-    background-color: white;
-}
-#header24{
-    background-color: black;
-}
-#header25{
-    background-color: white;
-}
-#header26{
-    background-color: black;
-}
-#header27{
-    background-color: white;
-}
-#header28{
-    background-color: black;
-}
-#header29{
-    background-color: black;
-}
-#header30{
-    background-color: white;
-}
-#header31{
-    background-color: black;
-}
-#header32{
-    background-color: white;
-}
+
+
