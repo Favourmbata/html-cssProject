@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #030300;
+    font-family:  "poppins",sans-serif;
+    margin: 0;
+
+}
+header{
+    background-color: #363636;
+    display: flex;
+}
+h1{
+    color: whitesmoke;
+    align-items: center;
+    margin-left: 28rem;
+}
+.search{
+    margin: 3rem;
+    margin-left: 12rem;
+    background-color: transparent;
+    border: 2px solid #e9e9ec;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.search ::placeholder{
+    color: #7378c5;
+}
+.search :focus{
+    background-color: #050505;
+    outline: none;
+}

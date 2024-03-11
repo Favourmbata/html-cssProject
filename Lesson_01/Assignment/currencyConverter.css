@@ -57,7 +57,7 @@ body{
 	font-family: arial;
 	font-size: 16px;
 	margin: 0;
-	background: linear-gradient(to right bottom, #007673, #0e0066);
+	background: linear-gradient(to right bottom, #2d002a, #cac5e9);
 	color: #fff;
 	display: flex;
 	align-items: center;
@@ -102,7 +102,7 @@ select,input{
 	margin:0 auto;
 	font-size: 22px;
 	border-radius: 15px;
-	background-color: #e62e00;
+	background-color: #2a4b0d7b;
 	color: #fff;
 	border:0;
 	cursor: pointer;

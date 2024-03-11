@@ -19,24 +19,46 @@ fetch(`https://${host}/currencies`)
     // console.log(entries);
   });
 
-    function convert(){
-        let input_currency_val = input_currency.value;
-        if(select[0].value != select[1].value){
 
-            const host = 'api.frankfurter.app';
-            fetch(`https://${host}/latest?amount=${input_currency_val}&from=${select[0].value}&to=${select[1].value}`)
 
-//   fetch(`https://${host}/latest?amount=${input_currency_val}&from=${select[0].value}&to=${select[1].value}`)
-  .then((val) => val.json())
-  .then((val) => {
-    out_currency.value = Object.values(val.rates[1])
-    console.log(Object.values(val.rates)[0])
-    // alert(`10 GBP = ${data.rates.USD} USD`);
-  });
-      
-        }else{
-            alert('please select two different currency')
-        }
-
+  function convert() {
+    let input_currency_val = input_currency.value;
+    if (select[0].value !== select[1].value) {
+        const host = 'api.frankfurter.app';
+        fetch(`https://${host}/latest?amount=${input_currency_val}&from=${select[0].options[select[0].selectedIndex].value}&to=${select[1].options[select[1].selectedIndex].value}`)
+            .then((val) => val.json())
+            .then((val) => {
+                out_currency.value = Object.values(val.rates)[0];
+                console.log(Object.values(val.rates)[0]);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    } else {
+        alert('Please select two different currencies');
     }
+}
+  
+//     function convert(){
+//         let input_currency_val = input_currency.value;
+//         if(select[0].value !== select[1].value){
+
+//             const host = 'api.frankfurter.app';
+//             fetch(`https://${host}/latest?amount=${input_currency_val}&from=${select[0].value}&to=${select[1].value}`)
+
+// //   fetch(`https://${host}/latest?amount=${input_currency_val}&from=${select[0].value}&to=${select[1].value}`)
+//   .then((val) => val.json())
+//   .then((val) => {
+//     out_currency.value = Object.values(val.rates[0])
+//     console.log(Object.values(val.rates)[0])
+//     // alert(`10 GBP = ${data.rates.USD} USD`);
+//   })
+//   .catch((error) => {
+//     console.error('Error:', error);
+//   });
+//         }else{
+//             alert('please select two different currency')
+//         }
+
+//     }
 
